@@ -18,7 +18,7 @@ export class Content extends Component {
             this.setState({
                 isLoaded: true,
             })
-        }, 2000)
+        }, 1000)
     }
     
     render() {
@@ -31,7 +31,7 @@ export class Content extends Component {
 
                 <div className={css.SearchResults}>
     {
-                        this.state.isLoaded ? 
+                        this.state.isLoaded ?
                         dog.savedPosts.map(dog => <PostItem dog={dog} />) :
                         <Loader />
                     }
