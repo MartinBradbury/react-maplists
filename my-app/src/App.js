@@ -1,8 +1,8 @@
 import css from './App.module.css';
 import Content from './components/Content';
-import Cont from './components/Cont';
 import Sidebar from './components/Sidebar';
 import NavbarForm from './components/NavbarForm';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       {/* <NavbarSimple /> */}
       <NavbarForm />
       {/* <NavigationParent /> */}
-      <Content />
+      {/* <Content /> */}
+      <ControlledForm />
       
     </div>
   );
