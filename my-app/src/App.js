@@ -3,16 +3,18 @@ import Content from './components/Content';
 import Sidebar from './components/Sidebar';
 import NavbarForm from './components/NavbarForm';
 import ControlledForm from './components/ControlledForm';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 function App() {
   return (
     <div className={css.App}>
-      <Sidebar />
+      {/* <Sidebar /> */}
       {/* <NavbarSimple /> */}
-      <NavbarForm />
+      {/* <NavbarForm /> */}
       {/* <NavigationParent /> */}
       {/* <Content /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      <ControlledFormHooks />
       
     </div>
   );
