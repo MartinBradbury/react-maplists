@@ -7,6 +7,7 @@ import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStatePrac from './components/UseStatePrac';
 import UseStatePrac2 from './components/UseStatePrac2';
+import UseStateWithObjects from './components/UseStateWithObjects';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <ControlledFormHooks /> */}
       {/* <UseStateWithArrays /> */}
       {/* <UseStatePrac /> */}
-      <UseStatePrac2 />
+      {/* <UseStatePrac2 /> */}
+      <UseStateWithObjects />
       
     </div>
   );
