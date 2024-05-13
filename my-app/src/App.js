@@ -4,6 +4,9 @@ import Sidebar from './components/Sidebar';
 import NavbarForm from './components/NavbarForm';
 import ControlledForm from './components/ControlledForm';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStatePrac from './components/UseStatePrac';
+import UseStatePrac2 from './components/UseStatePrac2';
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       {/* <NavigationParent /> */}
       {/* <Content /> */}
       {/* <ControlledForm /> */}
-      <ControlledFormHooks />
+      {/* <ControlledFormHooks /> */}
+      {/* <UseStateWithArrays /> */}
+      {/* <UseStatePrac /> */}
+      <UseStatePrac2 />
       
     </div>
   );
