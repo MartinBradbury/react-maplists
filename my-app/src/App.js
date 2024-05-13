@@ -9,6 +9,7 @@ import UseStatePrac from './components/UseStatePrac';
 import UseStatePrac2 from './components/UseStatePrac2';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseStateWithObs from './components/UseStateWithObs';
+import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <UseStatePrac /> */}
       {/* <UseStatePrac2 /> */}
       {/* <UseStateWithObjects /> */}
-      <UseStateWithObs />
+      {/* <UseStateWithObs /> */}
+      <UseEffectCounter />
       
     </div>
   );
