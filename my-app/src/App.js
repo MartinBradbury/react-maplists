@@ -10,6 +10,9 @@ import UseStatePrac2 from './components/UseStatePrac2';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseStateWithObs from './components/UseStateWithObs';
 import UseEffectCounter from './components/UseEffectCounter';
+import ContentHooks from './components/ContentHooks';
+import HTTPRequests from './components/HTTPRequests';
+
 
 function App() {
   return (
@@ -26,7 +29,9 @@ function App() {
       {/* <UseStatePrac2 /> */}
       {/* <UseStateWithObjects /> */}
       {/* <UseStateWithObs /> */}
-      <UseEffectCounter />
+      {/* <UseEffectCounter /> */}
+      {/* <ContentHooks /> */}
+      <HTTPRequests />
       
     </div>
   );
