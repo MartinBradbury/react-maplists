@@ -6,6 +6,7 @@ function UseStateTimer() {
 
 
     useEffect(() => {
+        console.log("create Timer")
         const interval = setInterval(() => {
             console.log('Timer')
             setTimer(time => time +1)
