@@ -11,6 +11,7 @@ function UseStateTimer() {
             setTimer(time => time +1)
         }, 1000);
         return () => {
+            console.log('Clear Interval')
             clearInterval(interval)
         }
     },[])
