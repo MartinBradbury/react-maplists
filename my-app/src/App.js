@@ -12,6 +12,7 @@ import UseStateWithObs from './components/UseStateWithObs';
 import UseEffectCounter from './components/UseEffectCounter';
 import ContentHooks from './components/ContentHooks';
 import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
       {/* <UseStateWithObs /> */}
       {/* <UseEffectCounter /> */}
       {/* <ContentHooks /> */}
-      <HTTPRequests />
+      {/* <HTTPRequests /> */}
+      <HTTPPost />
       
     </div>
   );
