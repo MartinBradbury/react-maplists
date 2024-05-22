@@ -13,6 +13,11 @@ import UseEffectCounter from './components/UseEffectCounter';
 import ContentHooks from './components/ContentHooks';
 import HTTPRequests from './components/HTTPRequests';
 import HTTPPost from './components/HTTPPost';
+import HTTPPostTest from './components/HTTPPostTest';
+import HTTPHooks from './components/HTTPHooks';
+import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
+import ContentAPIHooks2 from './components/ContentAPIHooks2';
 
 
 function App() {
@@ -33,7 +38,12 @@ function App() {
       {/* <UseEffectCounter /> */}
       {/* <ContentHooks /> */}
       {/* <HTTPRequests /> */}
-      <HTTPPost />
+      {/* <HTTPPost /> */}
+      {/* <HTTPPostTest /> */}
+      {/* <HTTPHooks /> */}
+      {/* <ContentAPI /> */}
+      {/* <ContentAPIHooks /> */}
+      <ContentAPIHooks2 />
       
     </div>
   );
