@@ -1,16 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-function PostItemAPI2({ post }) {
+function PostItemAPI2(props) {
   return (
-    <>
-      {post.map((posts) => (
-        <div key={posts.id}>
-          <p>{posts.type}</p>
-          <p>{posts.body}</p>
-        </div>
-      ))}
-    </>
-  );
-}
+    props.martin.map(p => {
+      return <div>
+        <p>{p.type}</p>
+        <p>{p.user}</p>
+        <img src={p.webformatURL}/>
+        <p>{p.tags}</p>
+      </div>
+    })
+  )}
 
-export default PostItemAPI2;
+export default PostItemAPI2
